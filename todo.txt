@@ -1,0 +1,20 @@
+git branches
+
+orm basics (check iva orm if records were created): env['model.name'].search_read([])
+
+estudiar mas a fondo groups and rights (security)
+
+
+odoo docs training (estate):
+
+manual sorting (sequence)
+
+states attribute
+
+Make the ‘Accept’ and ‘Refuse’ buttons invisible once the offer state is set.
+
+Do not allow adding an offer when the property state is ‘Offer Accepted’, ‘Sold’ or ‘Canceled’. To do this use the readonly attrs.
+
+several decorations same field
+
+chap12 search and stat
