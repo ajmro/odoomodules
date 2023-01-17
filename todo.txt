@@ -4,6 +4,10 @@ orm basics (check iva orm if records were created): env['model.name'].search_rea
 
 estudiar mas a fondo groups and rights (security)
 
+check related parameter (many2one)
+
+xpaths v.16
+
 
 odoo docs training (estate):
 
