@@ -9,7 +9,7 @@ class Course(models.Model):
     active = fields.Boolean()
     base_price = fields.Float('Base Price', default=0.00)
     additional_fee = fields.Float('Additional Fee', default=10.00)
-    total_price = fields.Float('Total Price', readonly=True)
+    total_price = fields.Float('Total Price', readonly=True, store=True) #probar si guarda
     session_ids = fields.One2many('academy.session', 'course_id')
     level = fields.Selection(selection=[('beginner', 'Beginner'),
                                         ('intermediate', 'Intermediate'),
