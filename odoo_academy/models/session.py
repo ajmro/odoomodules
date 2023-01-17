@@ -13,6 +13,7 @@ class Session(models.Model):
     start_date = fields.Date(default=fields.Date.today())
     duration = fields.Integer('Session Days', default=1)
     end_date = fields.Date('End Date', compute='_compute_end_date', inverse='_inverse_end_date', store=True)
+    total_price = fields.Float('Total Price', related='course_id.total_price')
 
     @api.depends("start_date", "duration")
     def _compute_end_date(self):

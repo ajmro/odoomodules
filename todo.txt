@@ -8,6 +8,8 @@ check related parameter (many2one)
 
 xpaths v.16
 
+wizards
+
 
 odoo docs training (estate):
 
