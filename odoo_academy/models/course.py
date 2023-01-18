@@ -1,4 +1,4 @@
-from odoo import api, fields, models, exceptions
+from odoo import api, fields, models, exceptions, _
 
 class Course(models.Model):
     _name = 'academy.course'
@@ -18,11 +18,11 @@ class Course(models.Model):
     @api.onchange('base_price', 'additional_fee')
     def _onchange_total(self):
         if self.base_price < 0.00:
-            raise exceptions.UserError('Base Price cannot be negative')
+            raise exceptions.UserError(_('Base Price cannot be negative'))
         self.total_price = self.base_price + self.additional_fee
 
     @api.constrains('additional_fee')
     def _check_add_fee(self):
         for record in self:
             if record.additional_fee < 10.00:
-                raise exceptions.ValidationError('Additional Fee cannot be less than 10.00: %s' % record.additional_fee)
+                raise exceptions.ValidationError(_('Additional Fee cannot be less than 10.00: %s' % record.additional_fee))

@@ -8,7 +8,7 @@ check related parameter (many2one)
 
 xpaths v.16
 
-wkhtmltopdf
+trans po not working?
 
 
 odoo docs training (estate):
