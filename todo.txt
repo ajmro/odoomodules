@@ -8,8 +8,6 @@ check related parameter (many2one)
 
 xpaths v.16
 
-trans po not working?
-
 
 odoo docs training (estate):
 

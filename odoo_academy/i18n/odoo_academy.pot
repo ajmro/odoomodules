@@ -65,14 +65,14 @@ msgstr ""
 #. module: odoo_academy
 #: model:ir.model.fields,field_description:odoo_academy.field_academy_course__base_price
 msgid "Base Price"
-msgstr "Precio base"
+msgstr ""
 
 #. module: odoo_academy
 #. odoo-python
 #: code:addons/odoo_academy/models/course.py:0
 #, python-format
 msgid "Base Price cannot be negative"
-msgstr "El precio base no puede ser negativo"
+msgstr ""
 
 #. module: odoo_academy
 #: model:ir.model.fields.selection,name:odoo_academy.selection__academy_course__level__beginner
