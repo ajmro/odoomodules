@@ -1,5 +1,3 @@
-git branches
-
 orm basics (check iva orm if records were created): env['model.name'].search_read([])
 
 estudiar mas a fondo groups and rights (security)
